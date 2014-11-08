@@ -7,11 +7,11 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "PERSON_ID")
+    //@Column(name = "PERSON_ID")
     private long id;
-    @Column(name = "PERSON_NAME")
+    //@Column(name = "PERSON_NAME")
     private String name;
-    @Column(name = "PERSON_PHONE")
+    //@Column(name = "PERSON_PHONE")
     private int phone;
 
     public String getName() {
