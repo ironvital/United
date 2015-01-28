@@ -1,4 +1,4 @@
-package hello;
+package com.united.spring.dto;
 
 
 public class Greeting {
